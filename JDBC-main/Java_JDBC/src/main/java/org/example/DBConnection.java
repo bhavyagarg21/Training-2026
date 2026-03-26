@@ -13,7 +13,7 @@ public class DBConnection {
             synchronized (DBConnection.class) {
                 if (connection == null) {
                     try {
-                        connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "Test_123");
+                        connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "rootroot");
                     } catch (SQLException e) {
                         e.printStackTrace();
                     }
